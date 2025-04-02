@@ -27,11 +27,11 @@ manager.add_student(student1)
 manager.add_student(student2)
 manager.add_student(student3)
 
-print("현재 등록된 학생 목록: ")
+print("현재 등록된 학생 목록:")
 manager.display_all_students()
 
 student4 = Student("4번", "한지수","22살")
 manager.add_student(student4)
 
-print("\n학번 4번 학생 추가 후: ")
+print("\n학번 4번 학생 추가 후:")
 manager.display_all_students()

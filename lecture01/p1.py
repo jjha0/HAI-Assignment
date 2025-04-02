@@ -5,7 +5,7 @@ class Student:
         self.age = age
     
     def display_info(self):
-        print("ID: " + self.student_id + " / 이름: " + self.name + " / 나이: " + self.age)
+        print("ID:", self.student_id, "/ 이름:", self.name, "/ 나이:", self.age)
 
 class StudentManager:
     def __init__(self):
